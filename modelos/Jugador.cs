@@ -71,9 +71,9 @@ namespace examen1.modelos
             Console.WriteLine("Ingresa la cantidad de dinero que apostaras");
             if ( int.TryParse(Console.ReadLine(), out dineroApostado))
             {
-                if (dineroApostado > _dinero)
+                if (dineroApostado > _dinero || dineroApostado%10 != 0)
                 {
-                    Console.WriteLine("no tienes dinero suficiente");
+                    Console.WriteLine("No puedes apostar esa cantidad");
                 } else {
                     Console.WriteLine($"Apostaras {dineroApostado}");
                 }
@@ -108,9 +108,9 @@ namespace examen1.modelos
             Console.WriteLine("Ingresa la cantidad de dinero que apostaras");
             if ( int.TryParse(Console.ReadLine(), out dineroApostado))
             {
-                if (dineroApostado > _dinero)
+                if (dineroApostado > _dinero || dineroApostado%10 != 0)
                 {
-                    Console.WriteLine("no tienes dinero suficiente");
+                    Console.WriteLine("No puedes apostar esa cantidad");
                 } else {
                     Console.WriteLine($"Apostaras {dineroApostado}");
                 }
@@ -145,9 +145,9 @@ namespace examen1.modelos
             Console.WriteLine("Ingresa la cantidad de dinero que apostaras");
             if ( int.TryParse(Console.ReadLine(), out dineroApostado))
             {
-                if (dineroApostado > _dinero)
+                if (dineroApostado > _dinero || dineroApostado%10 != 0)
                 {
-                    Console.WriteLine("no tienes dinero suficiente");
+                    Console.WriteLine("No puedes apostar esa cantidad");
                 } else {
                     Console.WriteLine($"Apostaras {dineroApostado}");
                 }
@@ -181,9 +181,9 @@ namespace examen1.modelos
             Console.WriteLine("Ingresa la cantidad de dinero que apostaras");
             if ( int.TryParse(Console.ReadLine(), out dineroApostado))
             {
-                if (dineroApostado > _dinero)
+                if (dineroApostado > _dinero || dineroApostado%10 != 0)
                 {
-                    Console.WriteLine("no tienes dinero suficiente");
+                    Console.WriteLine("No puedes apostar esa cantidad");
                 } else {
                     Console.WriteLine($"Apostaras {dineroApostado}");
                 }
